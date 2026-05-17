@@ -3,7 +3,6 @@
 
 :root {
   --cor-primaria: #00704A;
-
 }
 
 body {
@@ -19,7 +18,7 @@ body {
 
 .container {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .header-area {
@@ -29,32 +28,76 @@ body {
   height: 100px; 
 }
 
-.logo img {
+.header-left img {
   width: 64px;
   height: 64px;
 }
 
-.search form {
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-search form {
   display: flex;
 }
 
-.search input {
-  padding: 7px 10px;
+.header-search input {
+  padding: 10px 15px;
   font-size: 16px;
   border: 1px solid #999999;
   outline: 0;
   width: 100%;
-  max-width: 220px;
+  max-width: 250px;
 }
 
-.search button {
+.header-search button {
   background-color: transparent;
   border: 0;
   margin-left: -30px;
   cursor: pointer;
 }
 
-.search button img {
+.header-search button img {
   width: 16px;
   height: 16px;
+}
+
+.header-menu {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.header-menu img {
+  width: 24px;
+  height: 24px;
+}
+
+.banner {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.banner h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 6.6rem;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.banner-images {
+  margin-top: 60px;
+}
+
+.banner-images img {
+  width: 148px;
+  height: 148px;
+  border: 6px solid #117050;
+  border-radius: 50%;
+  margin-right: 40px;
 }
