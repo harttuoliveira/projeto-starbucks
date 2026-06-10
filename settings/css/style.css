@@ -41,8 +41,16 @@ h2 {
   font-weight: bold;
   font-size: 2.188rem;
   line-height: 2.813rem;
-  margin: 20px 0;
+  margin: 10px 0 20px 0;
   text-transform: capitalize;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  margin: 20px 0;
 }
 
 .button {
@@ -208,10 +216,13 @@ h2 {
 .area3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  background-image: url(../img/bg2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .area3-content {
-  padding: 80px;
+  padding: 210px 80px;
 }
 
 .area3-content p {
@@ -220,10 +231,66 @@ h2 {
 }
 
 .area3-img1 {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
   height: 770px;
   background-image: url(../img/f5.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.area4 {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+}
+
+.area4-content {
+  background-color: #E8E9EE;
+  padding: 170px 80px;
+}
+
+.area4-content p {
+  margin-bottom: 50px;
+  line-height: 1.563rem;
+}
+
+.area4-img1 {
+  background-image: url(../img/bg3.jpg);
+  background-size: cover;
+  background-position: 10%;
+}
+
+.area5 {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  background-color: #E8E9EE;
+  background-image: url(../img/bg4.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.area5-content {
+  display: flex;
+  padding: 38px;
+  flex-direction: column;
+  
+}
+
+.area5-content p {
+  margin-bottom: 50px;
+  line-height: 1.563rem;
+}
+
+footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 32px 0;
+}
+
+footer a {
+  color: #00a36a;
+}
+
+footer a:hover {
+  color: #006341;
 }
