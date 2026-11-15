@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media (min-width: 850px) and (max-width: 1140px) {
+  .container {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+@media (min-width: 581px) and (max-width: 849px) {
+  .container {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .area1 {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .area2 {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .area3 {
+    grid-template-columns: 3fr 2fr;
+    background-position: left;
+  }
+
+  .area5 {
+    grid-template-columns: 270px 1fr;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header-search input {
+    max-width: 150px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 40px;
+  }
+}

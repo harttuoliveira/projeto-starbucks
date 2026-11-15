@@ -231,7 +231,7 @@ h3 {
 }
 
 .area3-img1 {
-  height: 770px;
+  min-height: 770px;
   background-image: url(../img/f5.jpg);
   background-size: cover;
   background-position: center;
